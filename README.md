@@ -46,6 +46,7 @@ However, 我做了以下改进：
     chmod +x init.sh
     sudo ./init.sh /usr/local/bin/
     ```
+`/usr/local/bin/` can be changed by any PATH you want to add.
 
 5. **Run the Application**
 
