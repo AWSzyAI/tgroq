@@ -37,7 +37,8 @@ However, 我做了以下改进：
 
 4. add tgroq to PATH
 ```sh
-mv ./tgroq.sh /usr/local/bin/tgroq
+chmod +x init.sh
+sudo ./init.sh /usr/local/bin/
 ```
 
 5. **Run the Application**
