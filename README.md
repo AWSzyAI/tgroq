@@ -21,6 +21,7 @@ However, 我做了以下改进：
 
     ```sh
     git clone https://github.com/AWSzyAI/tgroq.git
+    cd tgroq
     ```
 
 2. **Install Dependencies**
