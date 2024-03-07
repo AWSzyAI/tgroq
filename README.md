@@ -19,6 +19,10 @@ However, 我做了以下改进：
 
 1. **Clone the Repository**
 
+    ```sh
+    git clone https://github.com/AWSzyAI/tgroq.git
+    ```
+
 2. **Install Dependencies**
 
     Set API key, you can found it here https://console.groq.com/keys:
@@ -36,10 +40,11 @@ However, 我做了以下改进：
     ```
 
 4. add tgroq to PATH
-```sh
-chmod +x init.sh
-sudo ./init.sh /usr/local/bin/
-```
+
+    ```sh
+    chmod +x init.sh
+    sudo ./init.sh /usr/local/bin/
+    ```
 
 5. **Run the Application**
 
