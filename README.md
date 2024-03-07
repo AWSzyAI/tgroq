@@ -11,7 +11,7 @@ This repository is forked from https://github.com/tomwarias/Terminal-Groq-Chat �
 However, 我做了以下改进：
 1. rename `groq.py`为`tgroq` 以避免`import groq`和自身文件名的冲突
 2. 修改代码使得可以直接将问题作为参数以运行`tgroq "My Question is..."`
-3. 编辑了`tgroq.sh`并添加到环境变量以随时随地调用`tgroq`呼出
+3. 编辑了`init.sh`并添加到环境变量以随时随地调用`tgroq`呼出
 4. 保留了多轮对话机制。当无参调用`tgroq`时，开始多轮对话，当使用`tgroq "My Question is..."`时，直接将回答输出到终端
 
 
@@ -40,13 +40,13 @@ However, 我做了以下改进：
     pip install groq, asyncio
     ```
 
-4. add tgroq to PATH
+4. **Add tgroq to PATH**
 
     ```sh
     chmod +x init.sh
     sudo ./init.sh /usr/local/bin/
     ```
-`/usr/local/bin/` can be changed by any PATH you want to add.
+`/usr/local/bin/` can also be changed by any PATH you want to add.
 
 5. **Run the Application**
 
