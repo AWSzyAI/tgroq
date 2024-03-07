@@ -29,7 +29,7 @@ However, 我做了以下改进：
     Set API key, you can found it here https://console.groq.com/keys:
 
     ```bash
-    set GROQ_API_KEY=<your_api> 
+    export GROQ_API_KEY=<your_api> 
     ```
     
 3. **Install Dependencies**
