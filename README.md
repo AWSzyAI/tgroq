@@ -33,7 +33,12 @@ However, 我做了以下改进：
     ```
     
 3. **Install Dependencies**
+    [Install pip](https://pip.pypa.io/en/stable/installation/):
 
+    ```bash
+    python3 get-pip.py
+    ```
+    
     Install the necessary Python packages by running:
 
     ```bash
