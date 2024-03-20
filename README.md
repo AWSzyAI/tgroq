@@ -37,7 +37,7 @@ However, 我做了以下改进：
     Install the necessary Python packages by running:
 
     ```bash
-    pip install groq, asyncio
+    pip install groq asyncio
     ```
 
 4. **Add tgroq to PATH**
